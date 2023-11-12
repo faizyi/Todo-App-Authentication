@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 221, 221);
+}
+.sign_up_container{
+    min-height: 420px;
+    width: 300px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+}
+#minn{
+    min-height: 350px;
+}
+.sign_up_container h1{
+    margin-top: 5px;
+}
+.sign_up_container .heading{
+    display: flex;
+    justify-content: center;
+}
+.sign_up_container .input_fields{
+    margin-top: 25px;
+}
+.input_fields .form_field{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color: red;
+}
+.form_field label{
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.form_field input{
+    width: 90%;
+    margin-left: 15px;
+    padding: 6px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 2px;
+    transition: 1s ease;
+    border: 2px solid rgb(233, 226, 226);
+}
+.form_field input:focus{
+    border: 2px solid rgb(77, 77, 238);
+}
+.pass_icon{
+    width: 20px;
+    float: right;
+    position: relative;
+    bottom: 25px;
+    right: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.sign_up_container .invalid_email{
+    display: flex;
+    justify-content: center;
+}
+.invalid_email p{
+    color: red;
+}
+.sign_up_container .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;    
+}
+.btn button{
+    width: 90%;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color:rgb(77, 77, 238) ;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    width: 90%;
+    background-color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.google .img img{
+    width: 20px;
+    margin-top: 7px;
+}
+.google button{
+    padding: 8px;
+    font-size: 15px;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.loader{
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: white;
+    animation: an1 1s ease infinite;
+    margin-left: 10px;
+}
+@keyframes an1{
+    0% {
+        transform: rotate(0turn);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
+.sign_up_container .footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+.footer a{
+    text-decoration: none;
+}

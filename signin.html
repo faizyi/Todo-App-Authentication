@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="minn"  class="sign_up_container">
+        <!-- <i id="eye_icon" class='bx bxs-low-vision' ></i> -->
+        <div class="heading">
+            <h1>Sign In</h1>
+        </div>
+        <div class="input_fields">
+            <form class="form" action="">
+            <div class="form_field" >
+                <label for="">Enter Email <span>*</span></label>
+                <input class="email" required type="email" placeholder="Enter Email">
+            </div><br>
+            <div class="form_field" >
+                <label for="">Enter Password <span>*</span></label>
+                <div class="password">
+                <input class="signin_password" required  type="password" placeholder="Enter Password">
+                <img src="./Img/Hide.png"  class="pass_icon">
+            </div>
+            <div class="invalid_email">
+                <p class="invalid"></p>
+            </div>
+            </div>
+            <div class="btn" >
+                <button class="sign_in_btn" type="submit" >Sign In</button>
+            </div>
+            </form>
+            <!-- google -->
+            <div class="google">
+                <div class="img">
+                    <img src="./Img/social-google.png" alt="">
+                </div>
+                <div>
+                <button>Continue with Google</button>
+            </div>
+            </div>
+        </div>
+
+        <div class="footer" >
+            <p>Not a member?</p>
+            <a href="./index.html">Register</a>
+        </div>
+
+    </div>
+
+<script type="module" src="signin.js"></script>
+    
+</body>
+</html>
