@@ -56,7 +56,7 @@ body{
   height: 20px;
   border-radius: 50%;
   border: 2px solid transparent;
-  border-top-color: black;
+  border-top-color: rgb(77, 77, 238);
   animation: an1 1s ease infinite;
   margin-left: 60px;
 }
@@ -262,3 +262,30 @@ body{
     margin-top: 4px;
   }
 }
+@media (max-width: 360px){
+  .header_container .header h1{
+    font-size: 25px;
+  }
+  .filters span{
+    margin: 0 1px;
+    font-size: 15px;
+  }
+  }
+  @media (max-width: 319px){
+    .filters span{
+      margin: 0 1px;
+      font-size: 14px;
+    }
+
+  }
+  @media (max-width: 308px){
+    .header_container .header h1{
+      font-size: 20px;
+    }
+    .filters span{
+      margin: 0 1px;
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+  }
